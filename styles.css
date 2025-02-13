@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("pexels-d30visuals-10014318.jpg");
+    background-size: contain; /* Changed to 'contain' for better visibility */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    color: red; /* Change heading color to red */
+}
+
+.fact-display {
+    margin: 20px 0;
+    font-size: 18px;
+    color: blue; /* Change facts text color to blue */
+    min-height: 50px;
+    transition: transform 0.5s ease; /* Add transition for animation */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to button */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
